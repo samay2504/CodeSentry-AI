@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Output
+output/
+tests/output/
+
+# Environment variables
+.env
+
+# Database
+*.db
+*.sqlite
+database.db
+
+# API Keys and Credentials
+configs/credentials.json
+credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Patch system (optional - uncomment if you want to exclude patches)
+# scripts/patches/*.py
+
+# Backup directories
+backups/
+
+# Cache directories
+cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+
+# Security reports
+bandit-report.json
+
+# Project reports
+logs/project_report_*.json
+
+# Temporary files
+temp_*
+*.tmp
+*.bak
+
+# Test artifacts
+.pytest_cache/
+test_*.pyc
+tests/output/
+tests/logs/
+tests/temp_* 
